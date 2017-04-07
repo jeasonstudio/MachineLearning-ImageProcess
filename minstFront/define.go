@@ -19,8 +19,8 @@ type MinstImgArr struct {
 
 // MinstLabel 输出标记
 type MinstLabel struct {
-	L         int      // 输出标记的长
-	LabelData *float32 // 输出标记数据
+	L         int       // 输出标记的长
+	LabelData []float32 // 输出标记数据
 }
 
 // MinstLabelArr 存储图像标记的数组
